@@ -30,7 +30,7 @@ except ImportError:
     resolve = globals().get("resolve")
 
 if not resolve:
-    print("Не удалось подключиться к DaVinci Resolve.")
+    print("⛔ Не удалось подключиться к DaVinci Resolve.")
     sys.exit(1)
 
 project = resolve.GetProjectManager().GetCurrentProject()

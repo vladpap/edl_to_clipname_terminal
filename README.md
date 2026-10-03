@@ -35,7 +35,14 @@ brew install python@3.11
 ```
 Эта команда установит интерпретатор и пакетный менеджер pip для этой версии.
 
-Проверьте установку. Homebrew устанавливает исполняемый файл с уточняющим именем, чтобы не конфликтовать с другими версиями:
+Или
+
+```bash
+uv python install 3.11
+```
+Если пользуетесь [uv](https://docs.astral.sh/uv/).
+
+Проверьте установку. Homebrew или uv устанавливает исполняемый файл с уточняющим именем, чтобы не конфликтовать с другими версиями:
 
 ```bash
 python3.11 --version
@@ -48,6 +55,12 @@ python3.11 --version
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+Для uv
+```bash
+uv venv --python 3.11
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 ## Настройка
