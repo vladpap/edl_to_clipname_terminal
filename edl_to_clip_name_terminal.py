@@ -1,5 +1,6 @@
 import argparse
 import sys
+import os
 from edl import Parser
 
 
