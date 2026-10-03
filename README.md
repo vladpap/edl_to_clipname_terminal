@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![DaVinci Resolve](https://img.shields.io/badge/DaVinci%20Resolve-Scripting%20API-233A51?logo=blackmagicdesign&logoColor=white)](https://www.blackmagicdesign.com/products/davinciresolve)
 [![EDL](https://img.shields.io/badge/EDL-CMX%203600-4B8BBE)](https://en.wikipedia.org/wiki/Edit_Decision_List)
-[![License](https://img.shields.io/badge/License-Not%20specified-lightgrey)](#лицензия)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Скрипт сверяет события из EDL с клипами на видеодорожке `V1` текущего таймлайна DaVinci Resolve по таймкодам. Если количество клипов и все таймкоды совпадают, он переименовывает клипы именами из поля `FROM CLIP NAME` EDL.
 
