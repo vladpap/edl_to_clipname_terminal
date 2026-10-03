@@ -89,6 +89,7 @@ python -m services.timecode
 ```text
 .
 ├── edl_to_clip_name_terminal.py  # Сверка EDL и переименование клипов
+├── LICENSE                        # Лицензия MIT
 ├── services/
 │   └── timecode.py               # Преобразование таймкодов и кадров
 ├── test_data/                    # Примеры EDL
@@ -97,4 +98,4 @@ python -m services.timecode
 
 ## Лицензия
 
-Лицензия пока не указана. Перед публикацией репозитория добавьте файл `LICENSE` с выбранными условиями использования.
+Проект распространяется по лицензии [MIT](LICENSE).
