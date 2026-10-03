@@ -1,5 +1,7 @@
 # EDL to Clip Name for DaVinci Resolve
 
+<img src="assets/logo_resolve.png" alt="DaVinci Resolve" width="120">
+
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![DaVinci Resolve](https://img.shields.io/badge/DaVinci%20Resolve-Scripting%20API-233A51?logo=blackmagicdesign&logoColor=white)](https://www.blackmagicdesign.com/products/davinciresolve)
 [![EDL](https://img.shields.io/badge/EDL-CMX%203600-4B8BBE)](https://en.wikipedia.org/wiki/Edit_Decision_List)
