@@ -2,7 +2,7 @@
 
 <p>
   <img src="assets/logo_resolve.png" alt="DaVinci Resolve" height="120">
-  <img src="assets/scripts.png" alt="DaVinci Resolve Scripting API" height="120">
+  <img src="assets/scripts.png" alt="DaVinci Resolve Scripting API" height="98">
   <img src="assets/logo_python.png" alt="Python" height="120">
 </p>
 
