@@ -2,6 +2,12 @@ import argparse
 import sys
 from edl import Parser
 
+
+os.environ["RESOLVE_SCRIPT_API"] = "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting"
+os.environ["RESOLVE_SCRIPT_LIB"] = "/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so"
+sys.path.append("/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Modules/")
+
+
 from services.timecode import get_timeline_fps, timecode_to_frames, frames_to_timecode
 
 
