@@ -90,5 +90,5 @@ if __name__ == "__main__":
     for tc, fps in test_cases:
         frames = timecode_to_frames(tc, fps)
         back = frames_to_timecode(frames, fps)
-        status = "OK" if back == tc else "MISMATCH"
+        status = "✅ OK" if back == tc else "❌ MISMATCH"
         print(f"{status}: {tc} @ {fps}fps → {frames} → {back}")
